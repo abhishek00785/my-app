@@ -1,0 +1,26 @@
+{
+  "name": "abhishek00785/my-app",
+  "description": "my-app",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abhishek Mishra",
+      "email": "abhishk.inbox@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tawba\\my-app\\": "src/"
+    },
+    "files": [
+      "src/Helpers/functions.php"
+    ]
+  }
+}
